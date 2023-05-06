@@ -1,0 +1,104 @@
+ [
+    {
+      "nombre": "Hotel El Dorado",
+      "ciudad": "Bogotá",
+      "pais": "Colombia",
+      "direccion": "Calle 92 #13-51",
+      "telefono": "+57 1 555 5555",
+      "precio_medio": "$150",
+      "estrellas": 4,
+      "actividades": ["Piscina climatizada", "Gimnasio", "Restaurante", "Bar"]
+    },
+    {
+      "nombre": "Hotel Aman Tokyo",
+      "ciudad": "Tokyo",
+      "pais": "Japón",
+      "direccion": "1-5-6 Otemachi, Chiyoda-ku",
+      "telefono": "+81 3-5224-3333",
+      "precio_medio": "$450",
+      "estrellas": 5,
+      "actividades": ["Spa", "Paseos turísticos", "Cocina japonesa", "Servicio de mayordomo"]
+    },
+    {
+      "nombre": "Hotel Ritz-Carlton",
+      "ciudad": "París",
+      "pais": "Francia",
+      "direccion": "15 Place Vendôme",
+      "telefono": "+33 1 43 16 30 30",
+      "precio_medio": "€650",
+      "estrellas": 5,
+      "actividades": ["Masajes", "Gimnasio", "Spa", "Tour por la ciudad"]
+    },
+    {
+      "nombre": "The Peninsula",
+      "ciudad": "Hong Kong",
+      "pais": "China",
+      "direccion": "Salisbury Rd, Tsim Sha Tsui",
+      "telefono": "+852 2920 2888",
+      "precio_medio": "$600",
+      "estrellas": 5,
+      "actividades": ["Spa", "Paseos en yate", "Motos de agua", "Bar en la azotea"]
+    },
+    {
+      "nombre": "Hotel Plaza Athénée",
+      "ciudad": "Nueva York",
+      "pais": "Estados Unidos",
+      "direccion": "37 E 64th St",
+      "telefono": "+1 212-606-4600",
+      "precio_medio": "$800",
+      "estrellas": 5,
+      "actividades": ["Spa", "Restaurante de cocina francesa", "Cocktails en el bar", "Visitas guiadas por la ciudad"]
+    },
+    {
+      "nombre": "Hotel Grand Velas",
+      "ciudad": "Cancún",
+      "pais": "México",
+      "direccion": "Carretera Cancún-Tulum Km 62, Playa del Carmen",
+      "telefono": "+52 322 226 8689",
+      "precio_medio": "$500",
+      "estrellas": 5,
+      "actividades": ["Safari", "Playa privada", "Piscina de olas", "Spa"]
+    },
+
+    {
+      "nombre": "Hotel Estrella",
+      "ciudad": "Madrid",
+      "pais": "España",
+      "direccion": "Calle Gran Vía, 25",
+      "telefono": "+34 911 23 45 67",
+      "precio_medio": "$120",
+      "estrellas": 4,
+      "actividades": ["Spa", "Gimnasio", "Piscina", "Excursiones"]
+    },
+    {
+      "nombre": "Hotel Playa",
+      "ciudad": "Cancún",
+      "pais": "México",
+      "direccion": "Avenida Kukulcán, km 12",
+      "telefono": "+52 998 123 45 67",
+      "precio_medio": "$420",
+      "estrellas": 5,
+      "actividades": ["Playa", "Deportes acuáticos", "Excursiones", "Gimnasio"]
+    },
+    {
+      "nombre": "Hotel Montaña",
+      "ciudad": "Aspen",
+      "pais": "Estados Unidos",
+      "direccion": "Mountain Road, 100",
+      "telefono": "+1 970 123 45 67",
+      "precio_medio": "$800",
+      "estrellas": 5,
+      "actividades": ["Esquí", "Snowboard", "Senderismo", "Sauna"]
+    },
+    {
+      "nombre": "Hotel Castillo",
+      "ciudad": "Barcelona",
+      "pais": "España",
+      "direccion": "Plaza Castilla, 1",
+      "telefono": "+34 931 23 45 67",
+      "precio_medio": "$180",
+      "estrellas": 4,
+      "actividades": ["Visitas guiada", "Restaurante", "Piscina", "Gimnasio"]
+    }
+  ]
+

@@ -1,0 +1,73 @@
+
+     [
+      {
+        "nombre": "Juan",
+        "apellido": "García",
+        "edad": 35,
+        "email": "juan.garcia@gmail.com",
+        "telefono": "555-1234"
+      },
+      {
+        "nombre": "María",
+        "apellido": "Rodríguez",
+        "edad": 28,
+        "email": "maria.rodriguez@hotmail.com",
+        "telefono": "555-5678"
+      },
+      {
+        "nombre": "Pedro",
+        "apellido": "Sánchez",
+        "edad": 42,
+        "email": "pedro.sanchez@yahoo.com",
+        "telefono": "555-9012"
+      },
+      {
+        "nombre": "Ana",
+        "apellido": "Martínez",
+        "edad": 31,
+        "email": "ana.martinez@gmail.com",
+        "telefono": "555-3456"
+      },
+      {
+        "nombre": "Luis",
+        "apellido": "González",
+        "edad": 47,
+        "email": "luis.gonzalez@hotmail.com",
+        "telefono": "555-7890"
+      },
+      {
+        "nombre": "Elena",
+        "apellido": "Fernández",
+        "edad": 25,
+        "email": "elena.fernandez@yahoo.com",
+        "telefono": "555-2345"
+      },
+      {
+        "nombre": "Carlos",
+        "apellido": "Ruiz",
+        "edad": 39,
+        "email": "carlos.ruiz@gmail.com",
+        "telefono": "555-6789"
+      },
+      {
+        "nombre": "Sara",
+        "apellido": "Pérez",
+        "edad": 27,
+        "email": "sara.perez@hotmail.com",
+        "telefono": "555-0123"
+      },
+      {
+        "nombre": "Jorge",
+        "apellido": "Hernández",
+        "edad": 36,
+        "email": "jorge.hernandez@yahoo.com",
+        "telefono": "555-4567"
+      },
+      {
+        "nombre": "Laura",
+        "apellido": "Gutiérrez",
+        "edad": 29,
+        "email": "laura.gutierrez@gmail.com",
+        "telefono": "555-8901"
+      }
+    ]
