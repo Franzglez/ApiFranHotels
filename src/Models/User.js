@@ -4,10 +4,16 @@ const { pick } = require('lodash');
 
 const jwt = require('jsonwebtoken');
 
-const userSchema = new mongoose.Schema({
-  "name": String,
+const userSchema = new mongoose.Schema({ 
   username: { type: String, required: true, unique: true },
   password: { type: String, required: true },
+  email: {type: String, required: true},
+  phone: {type: String, required: true},
+  name: String,
+  country: String,
+  isAdmin: Boolean,
+  reservaHotel: String,
+  
 
 })
 

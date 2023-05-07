@@ -1,0 +1,32 @@
+@hostname = http://localhost
+@port = 3000
+@host = {{hostname}}:{{port}}
+GET {{host}}/api/hotel
+###
+POST http://localhost:3000/api/franhotels/signup
+Content-Type: application/json
+
+{
+  
+  "username": "loco",
+  "password": "Tortuga"
+}
+
+###
+
+POST http://localhost:3000/api/franhotels/signin
+Content-Type: application/json
+
+{
+  
+  "username": "loco",
+  "password": "Tortuga"
+}
+
+
+
+
+
+
+
+

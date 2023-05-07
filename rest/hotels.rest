@@ -1,0 +1,32 @@
+@hostname = http://localhost
+@port = 3000
+@host = {{hostname}}:{{port}}
+GET {{host}}/api/franhotels/hoteles
+
+###
+POST {{host}}/api/franhotels/hoteles
+Content-Type: application/json
+
+{
+    "nombre":"Hotel Torre Pelli",
+    "ciudad":"Sevilla",
+    "pais":"España",
+    "direccion":"Av de la Cartuja",
+    "telefono":"3645638738",
+    "precio_medio":"990$",
+    "estrellas":"5",
+    "actividades":["Spa","Gym","Rooftop Restaurant","Masajes"]
+
+}
+
+###
+PUT {{host}}/api/franhotels/6458021fd2eb73493236b966
+Content-Type: application/json
+
+{
+    "nombre":"Actualizo nombre"
+}
+
+###
+DELETE {{host}}/api/franhotels/64569ccbb7b3cff69443133e
+

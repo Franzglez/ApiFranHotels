@@ -15,9 +15,9 @@ router.post('/signup', async (req, res) => {
 
     const newUser = await User.create({ password, ...rest })
 
-    // const token = newUser.generateJWT()
+    const token = newUser.generateJWT()
 
-    // res.setHeader('x-auth-token', token).json(newUser)
+    res.setHeader('x-auth-token', token).json(newUser)
 })
 
 router.post('/signin', async (req, res) => {
@@ -27,7 +27,7 @@ router.post('/signin', async (req, res) => {
 
     const isAuth = await bcrypt.compare(passwordPlainText, user.password)
 
-    const token = jwt.sign({ username, name: user.name }, privatKey);
+    const token = jwt.sign({ username, name: user.name }, process.env['jwt_privatKey'])
 
     res.setHeader('x-auth-token', token)
     res.send('Te has logeado')
